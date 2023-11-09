@@ -1,3 +1,10 @@
+# To Stop Auto Install Feature:
+## execute this line before running detect or train if you don't want to autoinstall the requirements 
+```bash
+export YOLO_AUTOINSTALL=False
+```
+---
+
 <div align="center">
   <p>
     <a href="https://yolovision.ultralytics.com/" target="_blank">
