@@ -1,7 +1,12 @@
 # To Stop Auto Install Feature:
-## execute this line before running detect or train if you don't want to autoinstall the requirements 
+## define this environment variable before running detect or train if you don't want to autoinstall the requirements 
 ```bash
 export YOLO_AUTOINSTALL=False
+```
+for example:
+```bash
+export YOLO_AUTOINSTALL=False
+yolo predict model=yolov8n.pt source='https://ultralytics.com/images/bus.jpg'
 ```
 ---
 
